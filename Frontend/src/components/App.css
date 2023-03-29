@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.App {
+  text-align: center;
+}
+
+a {
+  color: #e4dddd;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+/* /Resize the wrap to see the search bar change!/ */
+
+.products {
+  width: 100%;
+}
+.productsNav {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.listOfProducts {
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  margin-bottom: 3px;
+  background: url(./sikkim2.jpg);
+}
+
+.productsList {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.productDisplay {
+  width: 900px;
+  height: 200px;
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+* {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.products a:focus {
+  background-color: #0099cc;
+}
+
+.colu {
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+  height: 20px;
+  margin: 5px;
+}
+
+.productsNav a {
+  width: 260px;
+  height: 50px;
+  top: 2px;
+  background: #33b5e5;
+  font-size: 2vw;
+  /* background-color: rgb(234, 185, 39); */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e4dddd;
+}
+
+.card {
+  max-width: 80% !important;
+}
+
+.card-header .button {
+  align-items: right;
+}
+
+h {
+  text-decoration: underline;
+}
+.card {
+  display: flexbox;
+  text-align: left;
+  padding: 10px;
+  max-width: 80vw !important;
+}
+
+.Admin a:focus {
+  background-color: #0099cc;
+}
+.AdminNav a {
+  width: 260px;
+  height: 50px;
+  top: 2px;
+  background: #33b5e5;
+  font-size: 2vw;
+  /* background-color: rgb(234, 185, 39); */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e4dddd;
+}
+
+.carddd {
+  align-content: center;
+}
+
+.gradient-custom {
+  background: #f6d365;
+
+  background: -webkit-linear-gradient(
+    to right bottom,
+    rgba(246, 211, 101, 1),
+    rgba(253, 160, 133, 1)
+  );
+
+  background: linear-gradient(to right bottom, #6598f6, #85d9fd);
+}
+
+@media screen and (max-width: 480px) {
+ 
+  .profilemain {
+    position: relative;
+    left: 30px;
+   bottom:20px;
+   top:-20px;
+    
+  }
+  .userpro {
+    margin-bottom: 0px;
+  }
+}

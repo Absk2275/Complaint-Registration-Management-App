@@ -1,0 +1,8 @@
+.nav-item {
+  position: flex-end;
+}
+
+.navbar-brand {
+  font-family: "Copperplate", "Cursive", Fantasy;
+  color: aliceblue;
+}
